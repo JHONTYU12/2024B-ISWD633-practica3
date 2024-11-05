@@ -3,8 +3,7 @@ Un volumen anónimo es un volumen que Docker crea automáticamente sin nombre es
 **Considerar**
 Los datos persisten mientras el contenedor exista, pero son más difíciles de gestionar y referenciar después.
 
-```
-docker run -d --name <nombre contenedor> -v <ruta carpeta contenedor> <nombre imagen>
+wdocker run -d --name <nombre contenedor> -v <ruta carpeta contenedor> <nombre imagen>
 ```
 
 ### Para eliminar el contenedor y el volumen
